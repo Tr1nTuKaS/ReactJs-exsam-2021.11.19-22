@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import css from "./Task4.module.css";
 
-const Disabled = false;
-
 function Task4() {
   const [like, setLike] = useState(12);
   const [dislike, setDislike] = useState(2);
