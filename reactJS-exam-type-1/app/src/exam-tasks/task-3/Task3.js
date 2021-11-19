@@ -1,10 +1,34 @@
-import React from 'react';
+import React, { useState } from "react";
+import css from "./Task3.module.css";
 
 function Task3() {
+  const [reg, setReg] = useState("age");
+
+  const handleCheck = (e) => {
+    e.preventDefault();
+    if (reg < 18) {
+      alert("Deja, registracija negalima.");
+    }
+    if (reg >= 18) {
+      alert("Dėkojame, kad užsiregistravote");
+    }
+  };
+
   return (
-    <div>
+    <form className={css.form}>
       <h3>Task 3</h3>
-    </div>
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="Surname" />
+      <input
+        value={reg}
+        onChange={(e) => setReg(e.target.value)}
+        type="text"
+        placeholder="Age"
+      />
+      <div>
+        <button onClick={handleCheck}>Pateikti</button>
+      </div>
+    </form>
   );
 }
 

@@ -32,10 +32,10 @@ function App() {
       </Switch>
       <hr /> */}
 
-      <Task2 />
-      <hr />
+      {/* <Task2 />
+      <hr /> */}
 
-      {/* <Task3 />
+      <Task3 />
       <hr />
 
       <Task4 />
@@ -54,7 +54,7 @@ function App() {
       <hr />
 
       <Task9 />
-      <hr /> */}
+      <hr />
 
       {/* <Task10 />
       <hr /> */}

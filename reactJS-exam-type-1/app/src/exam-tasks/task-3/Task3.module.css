@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.form {
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+}
+.btn {
+  align-items: center;
+}
