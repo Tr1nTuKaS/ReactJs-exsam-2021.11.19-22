@@ -7,6 +7,7 @@ import About from "./exam-tasks/task-1/pages/AboutUs";
 import Contacts from "./exam-tasks/task-1/pages/Contacts";
 
 import Task2 from "./exam-tasks/task-2/Task2";
+
 import Task3 from "./exam-tasks/task-3/Task3";
 import Task4 from "./exam-tasks/task-4/Task4";
 import Task5 from "./exam-tasks/task-5/Task5";
@@ -19,7 +20,7 @@ import Task10 from "./exam-tasks/task-10/Task10";
 function App() {
   return (
     <div className="App">
-      <Task1 />
+      {/* <Task1 />
       <Switch>
         <Route exact path="/about">
           <About />
@@ -29,12 +30,12 @@ function App() {
           <Contacts />
         </Route>
       </Switch>
-      <hr />
+      <hr /> */}
 
       <Task2 />
       <hr />
 
-      <Task3 />
+      {/* <Task3 />
       <hr />
 
       <Task4 />
@@ -53,10 +54,10 @@ function App() {
       <hr />
 
       <Task9 />
-      <hr />
+      <hr /> */}
 
-      <Task10 />
-      <hr />
+      {/* <Task10 />
+      <hr /> */}
     </div>
   );
 }
