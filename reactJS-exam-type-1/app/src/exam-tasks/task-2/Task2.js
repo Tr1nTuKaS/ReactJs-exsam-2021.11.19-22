@@ -9,8 +9,10 @@ import img5 from "./images/calendars.jpg";
 function Task2() {
   return (
     <div className={css.container}>
+      <h3> Task 2</h3>
+
       <section className={css.sect}>
-        <h1>Categories</h1>
+        <p>Categories</p>
 
         <div className={css.cards}>
           <div className={css.card}>
