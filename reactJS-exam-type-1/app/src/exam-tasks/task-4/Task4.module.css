@@ -1,0 +1,23 @@
+.container {
+  text-align: center;
+  background-image: url(./image/wall.jpg);
+  height: 100vh;
+}
+
+.like {
+  background-image: url(./image/unnamed.png);
+  width: 60px;
+  height: 50px;
+  background-position: 13px 50px;
+}
+.dislike {
+  background-image: url(./image/unnamed.png);
+  width: 50px;
+  height: 50px;
+  background-position: 70px 50px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}

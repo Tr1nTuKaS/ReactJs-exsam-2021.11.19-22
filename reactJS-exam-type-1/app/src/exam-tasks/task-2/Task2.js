@@ -9,19 +9,6 @@ import img5 from "./images/calendars.jpg";
 function Task2() {
   return (
     <div className={css.container}>
-      <nav className={css.navbar}>
-        <a href="/" className={css.navLogo}>
-          <h1> LightShot</h1>
-          <h2>screen capture tool</h2>
-        </a>
-        <select className={css.btn} id="list">
-          <option value="1">English</option>
-          <option value="2">Lithuanian</option>
-          <option value="3">Polish</option>
-          <option value="4">Russian</option>
-        </select>
-        <button className={css.btn}> Singn in</button>
-      </nav>
       <section className={css.sect}>
         <h1>Categories</h1>
 
@@ -48,7 +35,6 @@ function Task2() {
           </div>
         </div>
       </section>
-      <footer></footer>
     </div>
   );
 }

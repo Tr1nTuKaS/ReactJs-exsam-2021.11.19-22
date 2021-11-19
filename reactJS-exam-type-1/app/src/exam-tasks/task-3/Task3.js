@@ -7,7 +7,7 @@ function Task3() {
   const handleCheck = (e) => {
     e.preventDefault();
     if (reg < 18) {
-      alert("Deja, registracija negalima.");
+      alert("Deja, registracija negalima.Registruotis galima tik nuo 18 metų");
     }
     if (reg >= 18) {
       alert("Dėkojame, kad užsiregistravote");

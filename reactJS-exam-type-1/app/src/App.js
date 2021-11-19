@@ -35,8 +35,8 @@ function App() {
       {/* <Task2 />
       <hr /> */}
 
-      <Task3 />
-      <hr />
+      {/* <Task3 />
+      <hr /> */}
 
       <Task4 />
       <hr />
