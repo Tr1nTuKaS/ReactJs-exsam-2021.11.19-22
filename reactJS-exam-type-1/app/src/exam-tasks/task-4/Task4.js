@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import css from "./Task4.module.css";
+import css4 from "./Task4.module.css";
 
 function Task4() {
   const [like, setLike] = useState(12);
@@ -22,13 +22,13 @@ function Task4() {
   };
 
   return (
-    <div className={css.container}>
+    <div className={css4.container}>
       <h3>Task 4</h3>
-      <div className={css.card}>
-        <div onClick={handleLike} className={css.like}>
+      <div className={css4.card}>
+        <div onClick={handleLike} className={css4.like}>
           {like}
         </div>
-        <div onClick={handleDislike} className={css.dislike}>
+        <div onClick={handleDislike} className={css4.dislike}>
           {dislike}
         </div>
       </div>
