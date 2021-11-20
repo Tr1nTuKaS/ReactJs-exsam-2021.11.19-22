@@ -1,19 +1,19 @@
 import React from "react";
 import css from "./Task5.module.css";
-import logo from "./image/Twitter-Logo.png";
-
-function Task5() {
+import Button from "./Button";
+import { IoLogoTwitter } from "react-icons/io";
+function Task5(props) {
   return (
     <div className={css.container}>
       <h3>Task 5</h3>
       <div className={css.card}>
-        <div className={css.nav}>
-          <img className={css.logo} src={logo} alt="logo" />
-        </div>
+        <h2 className={css.icon}>
+          <IoLogoTwitter />
+        </h2>
+        <div className={css.nav}></div>
         <h1>Happening now</h1>
         <h6>Join Twitter today.</h6>
-        <button className={css.btn1}>Sing up</button>
-        <button className={css.btn2}>Log in</button>
+        <Button sing="Sign up" log="Log in" />
       </div>
     </div>
   );
