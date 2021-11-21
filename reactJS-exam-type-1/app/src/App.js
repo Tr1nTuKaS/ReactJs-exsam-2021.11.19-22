@@ -45,6 +45,7 @@ function App() {
       <hr />
 
       <Task6 />
+
       <hr />
 
       <Task7 />

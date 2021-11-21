@@ -50,3 +50,7 @@ h6 {
   color: rgb(94, 94, 245);
   margin: 0.5rem;
 }
+
+.card > btn1 {
+  width: 100%;
+}
