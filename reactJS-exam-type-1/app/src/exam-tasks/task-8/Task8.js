@@ -1,13 +1,19 @@
-import React from 'react';
-import CompA from './CompA';
-import CompB from './CompB';
+import React, { useState } from "react";
+import CompA from "./CompA";
+import CompB from "./CompB";
+
+export const context = React.createContext(null);
 
 function Task8() {
+  const [Counter, setCounter] = useState("");
   return (
     <div>
       <h3>Task 8</h3>
-      {/*<CompA />*/}
-      {/*<CompB />*/}
+      <context.Provider value={{ Counter, setCounter }}>
+        <p>{Counter}</p>
+        <CompA />
+        <CompB />
+      </context.Provider>
     </div>
   );
 }

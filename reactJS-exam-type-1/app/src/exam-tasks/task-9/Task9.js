@@ -1,16 +1,20 @@
-import React, { Component } from 'react';
-import Card from './Card';
+import React, { Component } from "react";
+import Card from "./Card";
 
 export default class Task9 extends Component {
   render() {
     return (
       <div>
         <h3>Task 9</h3>
-        {/*<Card />*/}
+        <Card />
       </div>
     );
   }
 }
+
+// <div className={css6.container}>
+//
+// </div>
 
 /* Task 9
 Task 9 viduje atvaizduokite 5 būtinus atlikti darbų iš čia: https://jsonplaceholder.typicode.com/todos
