@@ -57,8 +57,8 @@ function App() {
       <Task9 />
       <hr />
 
-      {/* <Task10 />
-      <hr /> */}
+      <Task10 />
+      <hr />
     </div>
   );
 }
