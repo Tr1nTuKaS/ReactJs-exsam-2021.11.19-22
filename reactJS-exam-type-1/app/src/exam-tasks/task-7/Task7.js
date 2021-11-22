@@ -1,9 +1,34 @@
-import React from 'react';
+import React, { useRef } from "react";
 
 function Task7() {
+  const light = useRef(null);
+  const dark = useRef();
+
+  const handleLight = (e) => {
+    e.preventDefault();
+    light.current.style.backgroundColor = "#f1f1f1";
+    light.current.style.color = "#000000";
+    dark.current.style.backgroundColor = "#f1f1f1";
+    dark.current.style.color = "#000000";
+  };
+
+  const handleDark = (e) => {
+    e.preventDefault();
+    dark.current.style.backgroundColor = "#000000";
+    dark.current.style.color = "#f1f1f1";
+    light.current.style.backgroundColor = "#000000";
+    light.current.style.color = "#f1f1f1";
+  };
+
   return (
     <div>
       <h3>Task 7</h3>
+      <h1 ref={light}>React fronto studija</h1>
+      <p ref={dark}>Never give up</p>
+      <button onClick={handleLight}>Light theme</button>
+      <button ref={dark} onClick={handleDark}>
+        Dark theme
+      </button>
     </div>
   );
 }
