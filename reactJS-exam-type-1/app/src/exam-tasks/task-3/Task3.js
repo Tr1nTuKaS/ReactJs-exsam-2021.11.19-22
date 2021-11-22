@@ -20,7 +20,6 @@ function Task3() {
       <input type="text" placeholder="Name" />
       <input type="text" placeholder="Surname" />
       <input
-        value={reg}
         onChange={(e) => setReg(e.target.value)}
         type="text"
         placeholder="Age"
